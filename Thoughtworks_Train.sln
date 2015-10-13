@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteDistanceCalculator", "Thoughtworks_Train\RouteDistanceCalculator.csproj", "{649CAD30-46E5-408A-B0A1-E8154FB2A3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteDistanceCalculator.Tests", "RouteDistanceCalculator.Tests\RouteDistanceCalculator.Tests.csproj", "{749160FE-8BB7-41DF-9ED9-7DB1BDA2FB1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{649CAD30-46E5-408A-B0A1-E8154FB2A3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649CAD30-46E5-408A-B0A1-E8154FB2A3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649CAD30-46E5-408A-B0A1-E8154FB2A3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649CAD30-46E5-408A-B0A1-E8154FB2A3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749160FE-8BB7-41DF-9ED9-7DB1BDA2FB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749160FE-8BB7-41DF-9ED9-7DB1BDA2FB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749160FE-8BB7-41DF-9ED9-7DB1BDA2FB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749160FE-8BB7-41DF-9ED9-7DB1BDA2FB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

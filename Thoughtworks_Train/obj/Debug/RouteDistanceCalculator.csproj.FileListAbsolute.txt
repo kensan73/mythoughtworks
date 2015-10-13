@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\Thoughtworks_Train\Thoughtworks_Train\bin\Debug\Thoughtworks_Train.dll
+c:\users\user\documents\visual studio 2013\Projects\Thoughtworks_Train\Thoughtworks_Train\bin\Debug\Thoughtworks_Train.pdb
+c:\users\user\documents\visual studio 2013\Projects\Thoughtworks_Train\Thoughtworks_Train\obj\Debug\RouteDistanceCalculator.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\Thoughtworks_Train\Thoughtworks_Train\obj\Debug\Thoughtworks_Train.dll
+c:\users\user\documents\visual studio 2013\Projects\Thoughtworks_Train\Thoughtworks_Train\obj\Debug\Thoughtworks_Train.pdb

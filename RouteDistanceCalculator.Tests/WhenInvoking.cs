@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using NUnit.Framework;
-using Thoughtworks_Train;
 
 namespace RouteDistanceCalculator.Tests
 {
@@ -140,7 +139,6 @@ namespace RouteDistanceCalculator.Tests
 
             var result = _calculator.Invoke(singleRoute, requestedRoute);
 
-            var one = 1;
             Assert.That(result, Is.EqualTo("396"));
         }
 

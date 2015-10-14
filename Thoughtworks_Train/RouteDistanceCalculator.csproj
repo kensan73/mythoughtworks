@@ -7,8 +7,8 @@
     <ProjectGuid>{649CAD30-46E5-408A-B0A1-E8154FB2A3E2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Thoughtworks_Train</RootNamespace>
-    <AssemblyName>Thoughtworks_Train</AssemblyName>
+    <RootNamespace>RouteDistanceCalculator</RootNamespace>
+    <AssemblyName>RouteDistanceCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

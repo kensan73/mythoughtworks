@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace MaxNumberOfTripsCalculator
 {
-    public class Calculator
+    public class Calculator : ICalculateMaxNumberOfTrips
     {
         public List<MaxTripsResult> Invoke(Dictionary<string, int> availableRoutes, string requestedStartEnd, int maxStops)
         {

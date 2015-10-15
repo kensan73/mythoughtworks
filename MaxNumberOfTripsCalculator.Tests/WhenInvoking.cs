@@ -139,7 +139,7 @@ namespace MaxNumberOfTripsCalculator.Tests
             };
 
             var desiredStartEnd = route;
-            const int maxStops = 1;
+            const int maxStops = 2;
 
             var result = _calculator.Invoke(availableRoutes, desiredStartEnd, maxStops);
 
@@ -204,7 +204,7 @@ namespace MaxNumberOfTripsCalculator.Tests
             };
 
             var desiredStartEnd = route;
-            const int maxStops = 1;
+            const int maxStops = 2;
 
             var result = _calculator.Invoke(availableRoutes, desiredStartEnd, maxStops);
 
@@ -252,7 +252,7 @@ namespace MaxNumberOfTripsCalculator.Tests
             };
 
             var desiredStartEnd = route;
-            const int maxStops = 1;
+            const int maxStops = 2;
 
             var result = _calculator.Invoke(availableRoutes, desiredStartEnd, maxStops);
 
@@ -300,7 +300,7 @@ namespace MaxNumberOfTripsCalculator.Tests
             };
 
             var desiredStartEnd = route;
-            const int maxStops = 1;
+            const int maxStops = 2;
 
             var result = _calculator.Invoke(availableRoutes, desiredStartEnd, maxStops);
 

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using NUnit.Framework;
 
 namespace MaxNumberOfTripsCalculator.Tests
@@ -346,11 +347,13 @@ namespace MaxNumberOfTripsCalculator.Tests
             Assert.That(result[0].Legs.Count, Is.EqualTo(2));
             Assert.That(result[0].Legs[0].Leg, Is.EqualTo("CD"));
             Assert.That(result[0].Legs[1].Leg, Is.EqualTo("DC"));
+            Assert.That(result[0].Legs.Select(l => l.Distance).Sum(), Is.EqualTo(16));
 
             Assert.That(result[1].Legs.Count, Is.EqualTo(3));
             Assert.That(result[1].Legs[0].Leg, Is.EqualTo("CE"));
             Assert.That(result[1].Legs[1].Leg, Is.EqualTo("EB"));
             Assert.That(result[1].Legs[2].Leg, Is.EqualTo("BC"));
+            Assert.That(result[1].Legs.Select(l => l.Distance).Sum(), Is.EqualTo(9));
         }
     }
 }

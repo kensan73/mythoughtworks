@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D1A1E10-ABF0-409D-B21C-42A4A3B6E16F}</ProjectGuid>
+    <ProjectGuid>{C29ADF95-2553-4A48-9FB1-A17414135FD3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaxNumberOfTripsCalculator</RootNamespace>
-    <AssemblyName>MaxNumberOfTripsCalculator</AssemblyName>
+    <RootNamespace>ExactStopsCalculator.Tests</RootNamespace>
+    <AssemblyName>ExactStopsCalculator.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,6 +30,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\packages\RhinoMocks.3.6.1\lib\net\Rhino.Mocks.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,11 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
-    <Compile Include="ICalculateMaxNumberOfTrips.cs" />
-    <Compile Include="MaxTripsResult.cs" />
+    <Compile Include="WhenInvokingDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Trip.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExactStopsCalculator\ExactStopsCalculator.csproj">
+      <Project>{DDC7BD13-E8E1-49A1-A442-BD46B95F274E}</Project>
+      <Name>ExactStopsCalculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MaxNumberOfTripsCalculator\MaxNumberOfTripsCalculator.csproj">
+      <Project>{4D1A1E10-ABF0-409D-B21C-42A4A3B6E16F}</Project>
+      <Name>MaxNumberOfTripsCalculator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

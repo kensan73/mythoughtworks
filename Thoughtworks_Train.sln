@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumberOfTripsCalculator.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumberOfTripsCalculator", "MaxNumberOfTripsCalculator\MaxNumberOfTripsCalculator.csproj", "{4D1A1E10-ABF0-409D-B21C-42A4A3B6E16F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExactStopsCalculator", "ExactStopsCalculator\ExactStopsCalculator.csproj", "{DDC7BD13-E8E1-49A1-A442-BD46B95F274E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExactStopsCalculator.Tests", "ExactStopsCalculator.Tests\ExactStopsCalculator.Tests.csproj", "{C29ADF95-2553-4A48-9FB1-A17414135FD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{4D1A1E10-ABF0-409D-B21C-42A4A3B6E16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D1A1E10-ABF0-409D-B21C-42A4A3B6E16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D1A1E10-ABF0-409D-B21C-42A4A3B6E16F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC7BD13-E8E1-49A1-A442-BD46B95F274E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC7BD13-E8E1-49A1-A442-BD46B95F274E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC7BD13-E8E1-49A1-A442-BD46B95F274E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC7BD13-E8E1-49A1-A442-BD46B95F274E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29ADF95-2553-4A48-9FB1-A17414135FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29ADF95-2553-4A48-9FB1-A17414135FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29ADF95-2553-4A48-9FB1-A17414135FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29ADF95-2553-4A48-9FB1-A17414135FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

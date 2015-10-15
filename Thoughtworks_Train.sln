@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestDistanceCalculator"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestDistanceCalculator.Tests", "ShortestRouteCalculator.Tests\ShortestDistanceCalculator.Tests.csproj", "{E786054C-AF05-433E-8E53-ED2EEEDE0D85}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{08793B86-0376-4C9C-9CF1-5690C5F85BD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{749160FE-8BB7-41DF-9ED9-7DB1BDA2FB1E} = {08793B86-0376-4C9C-9CF1-5690C5F85BD8}
+		{A1A8B3F4-98AF-43C7-B77F-DC8F54E8AFD7} = {08793B86-0376-4C9C-9CF1-5690C5F85BD8}
+		{C29ADF95-2553-4A48-9FB1-A17414135FD3} = {08793B86-0376-4C9C-9CF1-5690C5F85BD8}
+		{E786054C-AF05-433E-8E53-ED2EEEDE0D85} = {08793B86-0376-4C9C-9CF1-5690C5F85BD8}
 	EndGlobalSection
 EndGlobal

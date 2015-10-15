@@ -53,26 +53,6 @@ namespace ExactStopsCalculator.Tests
             }
 
             [Test]
-            public void OneTripReturnedExceedsMaxStops()
-            {
-                var requestedTrip = "AD";
-                var exactStops = 1;
-                var twoStopTrip = new List<Trip>{new Trip(), new Trip(), new Trip()};
-
-                _maxTripsCalculator.Expect(
-                    mtc =>
-                        mtc.Invoke(Arg<Dictionary<string, int>>.Is.Anything, Arg<string>.Is.Anything,
-                            Arg<int>.Is.Anything)).Return(new List<MaxTripsResult>
-                            {
-                                new MaxTripsResult{Legs = twoStopTrip},
-                            });
-
-                var result = _calcer.InvokeDetails(_possibleLegs, requestedTrip, exactStops);
-
-                Assert.That(result, Is.Empty);
-            }
-
-            [Test]
             public void OneTripReturnedEqualsMaxStops()
             {
                 var requestedTrip = "AD";
